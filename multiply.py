@@ -5,7 +5,7 @@
 
 
 def multiply(n1, n2):
-    if n2 == 0:  # base case, if n2 is 0
-        return 0  # then return 0
-    else:  # recursive case
+    if n2 == 0:  
+        return 0  
+    else:  
         return n1 + multiply(n1, n2 - 1)  # n1 times n2 = n1 + (n1 times (n2-1))
